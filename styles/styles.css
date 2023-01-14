@@ -1,4 +1,63 @@
  /* font style  */
- .body{
-    font-family: 'Work Sans', sans-serif;
+ .body {
+     font-family: 'Work Sans', sans-serif;
  }
+
+ * {
+     margin: 0 auto;
+ }
+
+ /* ---------------
+ header style
+ -------------------  */
+ .header-section{
+    background: rgba(255, 144, 14, 0.1);
+ }
+ .navigation-tool {
+     display: flex;
+     justify-content: space-between;
+    padding: 40px 0;
+ }
+
+ .nav-bar ul {
+     display: flex;
+ }
+
+ ul {
+     list-style-type: none;
+     gap: 30px;
+ }
+
+ /*---------------
+  banner section
+  ------------------*/
+ .banner-content {
+     text-align: center;
+ }
+
+ .banner-title {
+     font-weight: 700;
+     font-size: 64px;
+     color: #131313;
+ }
+
+ .title-comment {
+     font-weight: 400;
+     font-size: 16px;
+     color: #727272;
+     margin: 25px;
+ }
+ .btn-primary{
+    background-color: orange ;
+    padding: 13px 20px;
+    color: #FFFFFF;
+    border: none;
+   border-radius: 5px;
+   margin-bottom: 50px;
+ }
+ .banner img{
+    width: 80%;
+    height:60%;
+    margin-bottom: 10px;
+ }
+ 

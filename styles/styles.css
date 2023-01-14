@@ -10,13 +10,14 @@
  /* ---------------
  header style
  -------------------  */
- .header-section{
-    background: rgba(255, 144, 14, 0.1);
+ .header-section {
+     background: rgba(255, 144, 14, 0.1);
  }
+
  .navigation-tool {
      display: flex;
      justify-content: space-between;
-    padding: 40px 0;
+     padding: 40px 0;
  }
 
  .nav-bar ul {
@@ -45,19 +46,61 @@
      font-weight: 400;
      font-size: 16px;
      color: #727272;
-     margin: 25px;
+     margin: 25px 0;
  }
- .btn-primary{
-    background-color: orange ;
-    padding: 13px 20px;
-    color: #FFFFFF;
-    border: none;
-   border-radius: 5px;
-   margin-bottom: 50px;
+
+ .btn-primary {
+     background-color: orange;
+     padding: 13px 20px;
+     color: #FFFFFF;
+     border: none;
+     border-radius: 5px;
+     margin-bottom: 50px;
  }
- .banner img{
-    width: 80%;
-    height:60%;
-    margin-bottom: 10px;
+
+ .banner img {
+     width: 80%;
+     height: 60%;
+     margin-bottom: 10px;
  }
- 
+
+ /*--------------------
+  team container style
+  ----------------------------  */
+ .team-container {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+ }
+
+ .team-photo {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 10px;
+     margin: 80px 120px;
+ }
+ .photo-size{
+   width: 342px;
+   height: 342px; 
+ }
+
+ .photo-size img {
+    width: 100%;
+    height: 100%;
+ }
+ /*---------------
+   team content 
+  ----------------- */
+ .team-title {
+     font-weight: 500;
+     font-size: 45px;
+ }
+ .team-title-gray{
+    color: #727272;
+ }
+ .team-title-black{
+    color: black;
+ }
+ .team-title-orange{
+    color: orange;
+ }

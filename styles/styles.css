@@ -246,7 +246,43 @@
 .sponsor img{
     filter: grayscale(100%);
 }
+.greating{
+   text-align: center;
+   border-left: 3px solid rgb(6, 6, 87);
+   border-right: 3px solid rgb(6, 6, 87) ;
+   background-color: lightgrey;
+   width: 50%;
+   padding:3vw;
+   margin-top: 30px;
+   border-radius: 5px;
+}
 
+@keyframes sliding {
+    0%{
+        color: rgb(1, 1, 66)
+        
+    }
+    25%{
+        color: rgb(117, 84, 1);
+    }
+    50%{
+        color: lightgreen;
+    }
+    75%{
+        color: darkgoldenrod;
+    }
+    100%{
+        color: rgb(1, 1, 66);
+    }
+
+}
+.greating-title{
+    font-size: 3em;
+    font-weight: 400;
+    color: #FF900E;
+    animation: sliding 2s ease-in-out .5s infinite alternate;
+    animation-play-state: running;
+}
  
 
 

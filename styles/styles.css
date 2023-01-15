@@ -18,6 +18,7 @@
      display: flex;
      justify-content: space-between;
      padding: 40px 0;
+     gap: 20px;
  }
 
  .nav-bar ul {
@@ -26,6 +27,7 @@
 
  ul {
      list-style-type: none;
+     color: #727272;
      gap: 30px;
  }
 
@@ -38,7 +40,7 @@
 
  .banner-title {
      font-weight: 700;
-     font-size: 64px;
+     font-size: 5vw;
      color: #131313;
  }
 
@@ -259,4 +261,54 @@ footer style
     background-color: bisque;
     padding: 30px 300px;
     color: #727272;
+ }
+ @media only screen and (max-width: 576px) {
+   .navigation-tool{
+    flex-direction: column;
+   }
+   .nav-bar ul{
+    flex-direction: column;
+    padding-left: 0;
+   } 
+   .title-comment{
+    margin: 15px 5px;
+   }
+   .team-container{
+    flex-direction: column-reverse;
+   }
+   .team-title{
+    font-size: 30px;
+   }
+   .team-photo{
+    grid-template-columns: 1fr;
+   }
+   .team-content{
+    margin: 10px 0 0 10px;
+   }
+   .features-container{
+    flex-direction: column;
+    margin: 0 20px;
+   }
+   .experience-btn{
+   position: relative;
+   left: 60px;
+   top: 10px;
+   }
+   .activities-container{
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 100px;
+   }
+   .sponsors{
+    flex-direction: column;
+    gap: 50px;
+    
+   }
+   .end-line{
+    padding: 5px 10px;
+    margin: 0;
+   }
+   .facts-tool{
+    margin: 15px ;
+   }
  }

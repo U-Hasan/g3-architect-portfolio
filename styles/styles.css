@@ -196,7 +196,8 @@
  .activities-container {
      display: flex;
      justify-content: center; 
-     gap: 124px;
+     height: 100%;
+     gap: 100px;
      margin: 40px 200px;
  }
 
@@ -207,18 +208,21 @@
      height: 100%;
      border: 1px solid #FF900E;
      border-radius: 8px;
-     
-    
  }
-
  .activities-number {
      font-weight: 600;
      font-size: 30px;
-     color: #424242;
      text-align: center;
  }
+ .activity-info:hover {
+    background-color: #FF900E;
+    transition: .5s;
+    transform: scale(1.4);
+    color: #FFFFFF;
+     
+}
  /* -----------------------------
-     our sponsor stule
+     our sponsor style
      ----------------------------------*/
 
 .sponsor-detail{
@@ -237,6 +241,9 @@
     margin: 0 100px;
     gap: 10px ;
 }
+.sponsor img{
+    filter: grayscale(100%);
+}
 
  
 
@@ -250,5 +257,6 @@ footer style
  .end-line{
     text-align: center;
     background-color: bisque;
-    padding: 30px 350px;
+    padding: 30px 300px;
+    color: #727272;
  }
